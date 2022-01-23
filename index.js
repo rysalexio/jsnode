@@ -17,9 +17,11 @@ if ( a > 2 & b > 2){
                 primeNum.push(i)
            }
         } 
-    }  else {
-    console.log('введите допустимые значения');
-}
+    } else if (a <=2 & b <=2){
+        console.log("введите допустимые значения")
+    }
+    else {
+    console.log('введите числа')
 
 let red = colors.red
 let green = colors.green
